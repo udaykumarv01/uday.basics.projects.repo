@@ -7,9 +7,8 @@ codes={1:"Venkatarangaiah C",
         3:"Rakshitha V",
          4:"Pallavi V",
           5:"Uday kumar V" }
-X=input("CODE : ")
-x=int(X)
-a=codes[x]
+X=int(input("CODE : "))
+a=codes[X]
 print(f"Name of farmer: {a}")
 
 b=float(input("volume(l): "))
